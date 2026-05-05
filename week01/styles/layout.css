@@ -1,0 +1,35 @@
+body {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  grid-column: 1 / 3;
+  background: #333;
+  color: white;
+  display: flex;
+  list-style: none;
+}
+
+.nav a{
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+main {
+  background: darkgray;
+}
+
+aside {
+  background: #ffffff;
+}
+
+footer {
+  grid-column: 1 / 3;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
