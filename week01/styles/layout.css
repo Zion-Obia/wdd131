@@ -9,13 +9,20 @@ header {
   background: #333;
   color: white;
   display: flex;
-  list-style: none;
 }
 
-.nav a{
+/* .nav a{
   display: flex;
   list-style: none;
   padding: 0;
+} */
+
+a {
+  color: white;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
 }
 
 main {
